@@ -1,0 +1,165 @@
+2025-10-03 17:43:25.264 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: 
+2025-10-03 17:43:25.265 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-03 17:43:25.860 [main] INFO  com.booker.tests.BookingTests - Created booking with ID: 1376
+2025-10-03 17:43:27.399 [main] INFO  com.booker.tests.BookingTests - Booking with ID: 1376 has been deleted.
+2025-10-03 17:48:44.381 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-03 17:48:44.381 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-03 17:48:44.951 [main] INFO  com.booker.tests.BookingTests - Created booking with ID: 4073
+2025-10-03 17:48:46.668 [main] INFO  com.booker.tests.BookingTests - Booking with ID: 4073 has been deleted.
+2025-10-03 17:48:55.237 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-03 17:48:55.238 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-03 17:48:55.815 [main] INFO  com.booker.tests.BookingTests - Created booking with ID: 4214
+2025-10-03 17:48:57.495 [main] INFO  com.booker.tests.BookingTests - Booking with ID: 4214 has been deleted.
+2025-10-03 17:49:13.528 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-03 17:49:13.529 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-03 17:49:14.100 [main] INFO  com.booker.tests.BookingTests - Created booking with ID: 4369
+2025-10-03 17:49:15.822 [main] INFO  com.booker.tests.BookingTests - Booking with ID: 4369 has been deleted.
+2025-10-13 17:02:36.120 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-13 17:02:36.121 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-13 17:02:36.663 [main] INFO  com.booker.tests.BookingTests - Created booking with ID: 670
+2025-10-13 17:02:38.288 [main] INFO  com.booker.tests.BookingTests - Booking with ID: 670 has been deleted.
+2025-10-13 18:11:35.854 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-13 18:11:35.855 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-13 18:11:36.441 [main] INFO  com.booker.tests.BookingTests - Created booking with ID: 682
+2025-10-13 18:11:37.941 [main] INFO  com.booker.tests.BookingTests - Booking with ID: 682 has been deleted.
+2025-10-13 18:13:47.102 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-13 18:13:47.103 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-13 18:13:47.150 [main] INFO  com.booker.tests.BookingTests - Test: Create a new booking.
+2025-10-13 18:13:47.682 [main] INFO  com.booker.tests.BookingTests - Successfully created booking with ID: 1806
+2025-10-13 18:13:47.695 [main] INFO  com.booker.tests.BookingTests - Test: Update booking with ID: 1806
+2025-10-13 18:13:48.204 [main] INFO  com.booker.tests.BookingTests - Test: Delete booking with ID: 1806
+2025-10-13 18:13:48.731 [main] INFO  com.booker.tests.BookingTests - Successfully deleted booking with ID: 1806
+2025-10-13 18:19:39.952 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-13 18:19:39.953 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-13 18:19:39.995 [main] INFO  com.booker.tests.BookingTests - Test: Create a new booking.
+2025-10-13 18:19:40.526 [main] INFO  com.booker.tests.BookingTests - Successfully created booking with ID: 4855
+2025-10-13 18:19:40.532 [main] INFO  com.booker.tests.BookingTests - Test: Get all booking IDs.
+2025-10-13 18:19:41.332 [main] INFO  com.booker.tests.BookingTests - Test: Update booking with ID: 4855
+2025-10-13 18:19:41.817 [main] INFO  com.booker.tests.BookingTests - Test: Delete booking with ID: 4855
+2025-10-13 18:19:42.339 [main] INFO  com.booker.tests.BookingTests - Successfully deleted booking with ID: 4855
+2025-10-13 18:25:43.443 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-13 18:25:43.444 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-13 18:25:43.494 [main] INFO  com.booker.tests.BookingTests - Test: Create a new booking.
+2025-10-13 18:25:44.023 [main] INFO  com.booker.tests.BookingTests - Successfully created booking with ID: 2781
+2025-10-13 18:25:44.029 [main] INFO  com.booker.tests.BookingTests - Test: Get all booking IDs.
+2025-10-13 18:25:44.644 [main] INFO  com.booker.tests.BookingTests - Test: Update booking with ID: 2781
+2025-10-13 18:25:45.133 [main] INFO  com.booker.tests.BookingTests - Test: Delete booking with ID: 2781
+2025-10-13 18:25:45.656 [main] INFO  com.booker.tests.BookingTests - Successfully deleted booking with ID: 2781
+2025-10-13 18:32:14.616 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-13 18:32:14.617 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-13 18:32:14.658 [main] INFO  com.booker.tests.BookingTests - Test: Create a new booking.
+2025-10-13 18:32:15.237 [main] INFO  com.booker.tests.BookingTests - Successfully created booking with ID: 838
+2025-10-13 18:32:15.240 [main] INFO  com.booker.tests.BookingTests - Test: Get all booking IDs.
+2025-10-13 18:32:15.812 [main] INFO  com.booker.tests.BookingTests - Test: Update booking with ID: 838
+2025-10-13 18:32:16.349 [main] INFO  com.booker.tests.BookingTests - Test: Delete booking with ID: 838
+2025-10-13 18:32:16.822 [main] INFO  com.booker.tests.BookingTests - Successfully deleted booking with ID: 838
+2025-10-13 18:41:14.868 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-13 18:41:14.868 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-13 18:41:14.916 [main] INFO  com.booker.tests.BookingTests - Test: Create a new booking.
+2025-10-13 18:41:15.463 [main] INFO  com.booker.tests.BookingTests - Successfully created booking with ID: 395
+2025-10-13 18:41:15.469 [main] INFO  com.booker.tests.BookingTests - Test: Get all booking IDs.
+2025-10-13 18:41:15.996 [main] INFO  com.booker.tests.BookingTests - Test: Update booking with ID: 395
+2025-10-13 18:41:16.521 [main] INFO  com.booker.tests.BookingTests - Test: Delete booking with ID: 395
+2025-10-13 18:41:16.940 [main] INFO  com.booker.tests.BookingTests - Successfully deleted booking with ID: 395
+2025-10-21 17:16:16.472 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-21 17:16:16.473 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-21 17:16:16.522 [main] INFO  com.booker.listeners.ExtentReportListener - Report setup initialized.
+2025-10-21 17:16:16.530 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:16:16.530 [main] INFO  com.booker.listeners.ExtentReportListener - STARTING TEST: createBooking
+2025-10-21 17:16:16.530 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:16:16.531 [main] INFO  com.booker.tests.BookingTests - Test: Create a new booking.
+2025-10-21 17:16:17.136 [main] INFO  com.booker.tests.BookingTests - Successfully created booking with ID: 3028
+2025-10-21 17:16:17.140 [main] INFO  com.booker.listeners.ExtentReportListener - TEST PASSED: createBooking
+2025-10-21 17:16:17.140 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+
+2025-10-21 17:16:17.143 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:16:17.143 [main] INFO  com.booker.listeners.ExtentReportListener - STARTING TEST: getAllBookingIds
+2025-10-21 17:16:17.143 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:16:17.143 [main] INFO  com.booker.tests.BookingTests - Test: Get all booking IDs.
+2025-10-21 17:16:17.857 [main] INFO  com.booker.listeners.ExtentReportListener - TEST PASSED: getAllBookingIds
+2025-10-21 17:16:17.857 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+
+2025-10-21 17:16:17.859 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:16:17.859 [main] INFO  com.booker.listeners.ExtentReportListener - STARTING TEST: updateBooking
+2025-10-21 17:16:17.859 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:16:17.859 [main] INFO  com.booker.tests.BookingTests - Test: Update booking with ID: 3028
+2025-10-21 17:16:18.340 [main] INFO  com.booker.listeners.ExtentReportListener - TEST PASSED: updateBooking
+2025-10-21 17:16:18.340 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+
+2025-10-21 17:16:18.342 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:16:18.342 [main] INFO  com.booker.listeners.ExtentReportListener - STARTING TEST: deleteBooking
+2025-10-21 17:16:18.342 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:16:18.342 [main] INFO  com.booker.tests.BookingTests - Test: Delete booking with ID: 3028
+2025-10-21 17:16:18.861 [main] INFO  com.booker.tests.BookingTests - Successfully deleted booking with ID: 3028
+2025-10-21 17:16:18.862 [main] INFO  com.booker.listeners.ExtentReportListener - TEST PASSED: deleteBooking
+2025-10-21 17:16:18.863 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+
+2025-10-21 17:16:18.961 [main] INFO  com.booker.listeners.ExtentReportListener - Report generation finished.
+2025-10-21 17:22:25.123 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-21 17:22:25.124 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-21 17:22:25.165 [main] INFO  com.booker.listeners.ExtentReportListener - Report setup initialized.
+2025-10-21 17:22:25.173 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:22:25.173 [main] INFO  com.booker.listeners.ExtentReportListener - STARTING TEST: createBooking
+2025-10-21 17:22:25.173 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:22:25.174 [main] INFO  com.booker.tests.BookingTests - Test: Create a new booking.
+2025-10-21 17:22:25.668 [main] INFO  com.booker.tests.BookingTests - Successfully created booking with ID: 1053
+2025-10-21 17:22:25.670 [main] INFO  com.booker.listeners.ExtentReportListener - TEST PASSED: createBooking
+2025-10-21 17:22:25.670 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+
+2025-10-21 17:22:25.672 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:22:25.672 [main] INFO  com.booker.listeners.ExtentReportListener - STARTING TEST: getAllBookingIds
+2025-10-21 17:22:25.672 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:22:25.672 [main] INFO  com.booker.tests.BookingTests - Test: Get all booking IDs.
+2025-10-21 17:22:26.247 [main] INFO  com.booker.listeners.ExtentReportListener - TEST PASSED: getAllBookingIds
+2025-10-21 17:22:26.248 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+
+2025-10-21 17:22:26.250 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:22:26.250 [main] INFO  com.booker.listeners.ExtentReportListener - STARTING TEST: updateBooking
+2025-10-21 17:22:26.250 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:22:26.250 [main] INFO  com.booker.tests.BookingTests - Test: Update booking with ID: 1053
+2025-10-21 17:22:26.692 [main] INFO  com.booker.listeners.ExtentReportListener - TEST PASSED: updateBooking
+2025-10-21 17:22:26.692 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+
+2025-10-21 17:22:26.694 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:22:26.694 [main] INFO  com.booker.listeners.ExtentReportListener - STARTING TEST: deleteBooking
+2025-10-21 17:22:26.694 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:22:26.694 [main] INFO  com.booker.tests.BookingTests - Test: Delete booking with ID: 1053
+2025-10-21 17:22:27.215 [main] INFO  com.booker.tests.BookingTests - Successfully deleted booking with ID: 1053
+2025-10-21 17:22:27.216 [main] INFO  com.booker.listeners.ExtentReportListener - TEST PASSED: deleteBooking
+2025-10-21 17:22:27.216 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+
+2025-10-21 17:22:27.314 [main] INFO  com.booker.listeners.ExtentReportListener - Report generation finished.
+2025-10-21 17:28:04.526 [main] INFO  com.booker.core.BaseTest - Setup complete. Using Base URI: https://restful-booker.herokuapp.com 
+2025-10-21 17:28:04.527 [main] INFO  com.booker.core.BaseTest - Authentication Token Retrived
+2025-10-21 17:28:04.568 [main] INFO  com.booker.listeners.ExtentReportListener - Report setup initialized.
+2025-10-21 17:28:04.575 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:28:04.575 [main] INFO  com.booker.listeners.ExtentReportListener - STARTING TEST: createBooking
+2025-10-21 17:28:04.575 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:28:04.576 [main] INFO  com.booker.tests.BookingTests - Test: Create a new booking.
+2025-10-21 17:28:05.105 [main] INFO  com.booker.tests.BookingTests - Successfully created booking with ID: 3928
+2025-10-21 17:28:05.106 [main] INFO  com.booker.listeners.ExtentReportListener - TEST PASSED: createBooking
+2025-10-21 17:28:05.106 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+
+2025-10-21 17:28:05.108 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:28:05.108 [main] INFO  com.booker.listeners.ExtentReportListener - STARTING TEST: getAllBookingIds
+2025-10-21 17:28:05.108 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:28:05.108 [main] INFO  com.booker.tests.BookingTests - Test: Get all booking IDs.
+2025-10-21 17:28:05.713 [main] INFO  com.booker.listeners.ExtentReportListener - TEST PASSED: getAllBookingIds
+2025-10-21 17:28:05.713 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+
+2025-10-21 17:28:05.715 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:28:05.715 [main] INFO  com.booker.listeners.ExtentReportListener - STARTING TEST: updateBooking
+2025-10-21 17:28:05.715 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:28:05.715 [main] INFO  com.booker.tests.BookingTests - Test: Update booking with ID: 3928
+2025-10-21 17:28:06.195 [main] INFO  com.booker.listeners.ExtentReportListener - TEST PASSED: updateBooking
+2025-10-21 17:28:06.196 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+
+2025-10-21 17:28:06.197 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:28:06.197 [main] INFO  com.booker.listeners.ExtentReportListener - STARTING TEST: deleteBooking
+2025-10-21 17:28:06.197 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+2025-10-21 17:28:06.197 [main] INFO  com.booker.tests.BookingTests - Test: Delete booking with ID: 3928
+2025-10-21 17:28:06.667 [main] INFO  com.booker.tests.BookingTests - Successfully deleted booking with ID: 3928
+2025-10-21 17:28:06.668 [main] INFO  com.booker.listeners.ExtentReportListener - TEST PASSED: deleteBooking
+2025-10-21 17:28:06.668 [main] INFO  com.booker.listeners.ExtentReportListener - =================================================================
+
+2025-10-21 17:28:06.766 [main] INFO  com.booker.listeners.ExtentReportListener - Report generation finished.
