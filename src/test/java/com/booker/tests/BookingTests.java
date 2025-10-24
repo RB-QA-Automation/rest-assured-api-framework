@@ -89,7 +89,7 @@ public class BookingTests extends BaseTest {
 
 	/**
 	 * Test to update the booking created in the createBooking test. Depends on the
-	 * successful execution of createBooking.
+	 * successful execution of  createBooking.
 	 */
 
 	@Test(dependsOnMethods = "createBooking")
