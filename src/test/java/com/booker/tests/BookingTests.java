@@ -20,28 +20,36 @@ import com.booker.pojos.BookingDates;
  */
 public class BookingTests extends BaseTest {
 
-	// Logger instance for this class
+	/*
+	 * Logger instance for this class
+	 */
+
 	private static final Logger logger = LogManager.getLogger(BookingTests.class);
 
-	// Class-level variables to be used across tests
+	/*
+	 * Class-level variables to be used across tests
+	 */
+
 	private BookingClient bookingClient;
 	private int bookingId;
 
 	/**
 	 * Setup method to initialize the API client before any tests run.
 	 */
+
 	@BeforeClass
 	public void setupTests() {
-		
+
 		this.bookingClient = new BookingClient();
 	}
 
 	/**
 	 * Test to verify that we can retrieve a list of all booking IDs.
 	 */
+
 	@Test
 	public void getAllBookingIds() {
-		
+
 		logger.info("Test: Get all booking IDs.");
 		Response response = bookingClient.getAllBookings();
 		response.then().statusCode(200).body("$", not(empty())).extract().response();
@@ -51,9 +59,10 @@ public class BookingTests extends BaseTest {
 	 * Test to create a new booking and verify its creation. This test runs first in
 	 * the end-to-end flow.
 	 */
+
 	@Test
 	public void createBooking() {
-		
+
 		logger.info("Test: Create a new booking.");
 
 		// --- 1. Prepare Test Data ---
@@ -82,9 +91,10 @@ public class BookingTests extends BaseTest {
 	 * Test to update the booking created in the createBooking test. Depends on the
 	 * successful execution of createBooking.
 	 */
+
 	@Test(dependsOnMethods = "createBooking")
 	public void updateBooking() {
-		
+
 		logger.info("Test: Update booking with ID: {}", bookingId);
 
 		// --- 1. Prepare Test Data for the update ---
@@ -111,9 +121,10 @@ public class BookingTests extends BaseTest {
 	 * Test to delete the booking that was just created and updated. Depends on the
 	 * successful execution of updateBooking.
 	 */
+
 	@Test(dependsOnMethods = "updateBooking")
 	public void deleteBooking() {
-		
+
 		logger.info("Test: Delete booking with ID: {}", bookingId);
 
 		// --- 1. Make API Call ---

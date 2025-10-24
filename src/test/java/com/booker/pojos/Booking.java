@@ -5,6 +5,10 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @JsonPropertyOrder({ "firstname", "lastname", "totalprice", "depositpaid", "bookingdates", "additionalneeds" })
 
 public class Booking {
+	
+	/*
+	 * Getter and Setter methods
+	 */
 
 	private String firstname;
 	private String lastname;

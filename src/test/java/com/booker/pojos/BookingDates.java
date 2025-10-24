@@ -1,6 +1,10 @@
 package com.booker.pojos;
 
 public class BookingDates {
+	
+	/*
+	 * Getter and Setter methods
+	 */
 
 	private String checkin;
 	private String checkout;

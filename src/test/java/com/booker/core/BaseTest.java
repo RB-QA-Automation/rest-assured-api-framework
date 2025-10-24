@@ -15,30 +15,43 @@ import org.apache.logging.log4j.Logger;
 
 public class BaseTest {
 
-	// A RequestSpecification for setting up our requests
+	/*
+	 * A RequestSpecification for setting up our requests
+	 */
 
 	protected static RequestSpecification requestSpec;
 
-	// Variable to store the Authentication token
+	/*
+	 * Variable to store the Authentication token
+	 */
 
 	protected static String token;
 
-	// Setup method that will run before any and all tests in the suite
-
-	// Creating a logger instance
+	/*
+	 * Creating a logger instance
+	 */
 
 	private static final Logger logger = LogManager.getLogger(BaseTest.class);
+
+	/*
+	 * Setup method that will run before any and all tests in the suite
+	 */
 
 	@BeforeSuite
 	public void setup() {
 
-		// Creating Properties object
+		/*
+		 * Creating Properties object
+		 */
 
 		Properties props = new Properties();
 
 		try {
 
-			// Loading the config file
+			/*
+			 * Loading the config file
+			 */
+
 			FileInputStream fis = new FileInputStream("src/test/resources/config.properties");
 			props.load(fis);
 
@@ -47,11 +60,16 @@ public class BaseTest {
 			e.printStackTrace();
 		}
 
-		// Build the base request spec
+		/*
+		 * Build the base request spec
+		 */
+
 		requestSpec = new RequestSpecBuilder().setBaseUri(props.getProperty("baseUri")).build();
 
-		// Obtain and store the Authentication and
-		// Using config file to read user details
+		/*
+		 * Obtain and store the Authentication and Using config file to read user
+		 * details
+		 */
 
 		String requestBody = String.format("{\"username\" : \"%s\", \"password\" : \"%s\"}",
 				props.getProperty("username"), props.getProperty("password"));
@@ -61,7 +79,6 @@ public class BaseTest {
 
 		logger.info("Setup complete. Using Base URI: {} ", props.getProperty("baseUri"));
 		logger.info("Authentication Token Retrived");
-
 
 	}
 
